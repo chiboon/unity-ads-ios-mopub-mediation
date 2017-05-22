@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmM-pY-HwF">
+                                <rect key="frame" x="91" y="120" width="192" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="N0k-Cs-gPR"/>
+                                    <constraint firstAttribute="height" constant="39" id="lAD-hp-8H3"/>
+                                </constraints>
+                                <state key="normal" title="Play Rewarded Video"/>
+                                <connections>
+                                    <action selector="didTapShowRewardedVideoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ax0-Nc-h4q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJo-cf-kV9">
+                                <rect key="frame" x="91" y="209" width="192" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192" id="7Te-mv-pYT"/>
+                                    <constraint firstAttribute="height" constant="39" id="T9l-OH-gB1"/>
+                                </constraints>
+                                <state key="normal" title="Play Interstitial"/>
+                                <connections>
+                                    <action selector="didTapShowInterstitialButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYK-dQ-lKB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unity Ads - MoPub Mediation " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfn-HS-VYV">
+                                <rect key="frame" x="66.5" y="48" width="241.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241.5" id="7TS-2N-gCg"/>
+                                    <constraint firstAttribute="height" constant="21" id="bxv-vq-lBc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Dfn-HS-VYV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="3ja-5k-cvE"/>
+                            <constraint firstItem="sJo-cf-kV9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QeF-3v-4ez"/>
+                            <constraint firstItem="Dfn-HS-VYV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hHt-U9-7oi"/>
+                            <constraint firstItem="GmM-pY-HwF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="juQ-R7-0zh"/>
+                            <constraint firstItem="GmM-pY-HwF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rb6-5b-pmV"/>
+                            <constraint firstItem="sJo-cf-kV9" firstAttribute="top" secondItem="GmM-pY-HwF" secondAttribute="bottom" constant="50" id="rgr-py-Dsl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="PlayInterstitialButton" destination="sJo-cf-kV9" id="eja-nN-Br7"/>
+                        <outlet property="PlayRewardedVideoButton" destination="GmM-pY-HwF" id="hex-B8-Klp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

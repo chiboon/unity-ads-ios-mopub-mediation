@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B64508A60A7054665C32D0 /* libPods-Unity_MoPub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E175C68393C016DBD977DC06 /* libPods-Unity_MoPub.a */; };
+		FD8CE33A1ED2B98300F82FB2 /* MPInstanceProvider+Unity.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CE3331ED2B98300F82FB2 /* MPInstanceProvider+Unity.m */; };
+		FD8CE33B1ED2B98300F82FB2 /* MPUnityRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CE3351ED2B98300F82FB2 /* MPUnityRouter.m */; };
+		FD8CE33C1ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CE3371ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.m */; };
+		FD8CE33D1ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CE3391ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.m */; };
+		FD8CE3401ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CE33F1ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.m */; };
+		FDE347E11EB983D8000AA46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE347E01EB983D8000AA46D /* main.m */; };
+		FDE347E41EB983D8000AA46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE347E31EB983D8000AA46D /* AppDelegate.m */; };
+		FDE347E71EB983D8000AA46D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE347E61EB983D8000AA46D /* ViewController.m */; };
+		FDE347EA1EB983D8000AA46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE347E81EB983D8000AA46D /* Main.storyboard */; };
+		FDE347EC1EB983D8000AA46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE347EB1EB983D8000AA46D /* Assets.xcassets */; };
+		FDE347EF1EB983D8000AA46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE347ED1EB983D8000AA46D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380F5829AB893B7CDE3534D6 /* Pods-Unity_MoPub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity_MoPub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unity_MoPub/Pods-Unity_MoPub.release.xcconfig"; sourceTree = "<group>"; };
+		3C85C654D2EE50F3D4C3F08E /* Pods-Unity_MoPub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unity_MoPub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unity_MoPub/Pods-Unity_MoPub.debug.xcconfig"; sourceTree = "<group>"; };
+		E175C68393C016DBD977DC06 /* libPods-Unity_MoPub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unity_MoPub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8CE3321ED2B98300F82FB2 /* MPInstanceProvider+Unity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPInstanceProvider+Unity.h"; sourceTree = "<group>"; };
+		FD8CE3331ED2B98300F82FB2 /* MPInstanceProvider+Unity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPInstanceProvider+Unity.m"; sourceTree = "<group>"; };
+		FD8CE3341ED2B98300F82FB2 /* MPUnityRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUnityRouter.h; sourceTree = "<group>"; };
+		FD8CE3351ED2B98300F82FB2 /* MPUnityRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUnityRouter.m; sourceTree = "<group>"; };
+		FD8CE3361ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityAdsInstanceMediationSettings.h; sourceTree = "<group>"; };
+		FD8CE3371ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityAdsInstanceMediationSettings.m; sourceTree = "<group>"; };
+		FD8CE3381ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityAdsRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		FD8CE3391ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityAdsRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
+		FD8CE33E1ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityAdsInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		FD8CE33F1ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityAdsInterstitialCustomEvent.m; sourceTree = "<group>"; };
+		FDE347DC1EB983D8000AA46D /* Unity_MoPub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unity_MoPub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE347E01EB983D8000AA46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDE347E21EB983D8000AA46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDE347E31EB983D8000AA46D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDE347E51EB983D8000AA46D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDE347E61EB983D8000AA46D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDE347E91EB983D8000AA46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE347EB1EB983D8000AA46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE347EE1EB983D8000AA46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE347F01EB983D8000AA46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE347D91EB983D8000AA46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B64508A60A7054665C32D0 /* libPods-Unity_MoPub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F076E8F9EEF2179F69D0CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E175C68393C016DBD977DC06 /* libPods-Unity_MoPub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E52C701971422AD9D5C9A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C85C654D2EE50F3D4C3F08E /* Pods-Unity_MoPub.debug.xcconfig */,
+				380F5829AB893B7CDE3534D6 /* Pods-Unity_MoPub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD8CE3301ED2B98300F82FB2 /* AdNetworkSupport */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CE3311ED2B98300F82FB2 /* Unity */,
+			);
+			path = AdNetworkSupport;
+			sourceTree = "<group>";
+		};
+		FD8CE3311ED2B98300F82FB2 /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CE3321ED2B98300F82FB2 /* MPInstanceProvider+Unity.h */,
+				FD8CE3331ED2B98300F82FB2 /* MPInstanceProvider+Unity.m */,
+				FD8CE3341ED2B98300F82FB2 /* MPUnityRouter.h */,
+				FD8CE3351ED2B98300F82FB2 /* MPUnityRouter.m */,
+				FD8CE3361ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.h */,
+				FD8CE3371ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.m */,
+				FD8CE33E1ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.h */,
+				FD8CE33F1ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.m */,
+				FD8CE3381ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.h */,
+				FD8CE3391ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.m */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		FDE347D31EB983D8000AA46D = {
+			isa = PBXGroup;
+			children = (
+				FDE347DE1EB983D8000AA46D /* Unity_MoPub */,
+				FDE347DD1EB983D8000AA46D /* Products */,
+				73E52C701971422AD9D5C9A4 /* Pods */,
+				45F076E8F9EEF2179F69D0CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE347DD1EB983D8000AA46D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE347DC1EB983D8000AA46D /* Unity_MoPub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE347DE1EB983D8000AA46D /* Unity_MoPub */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CE3301ED2B98300F82FB2 /* AdNetworkSupport */,
+				FDE347E21EB983D8000AA46D /* AppDelegate.h */,
+				FDE347E31EB983D8000AA46D /* AppDelegate.m */,
+				FDE347E51EB983D8000AA46D /* ViewController.h */,
+				FDE347E61EB983D8000AA46D /* ViewController.m */,
+				FDE347E81EB983D8000AA46D /* Main.storyboard */,
+				FDE347EB1EB983D8000AA46D /* Assets.xcassets */,
+				FDE347ED1EB983D8000AA46D /* LaunchScreen.storyboard */,
+				FDE347F01EB983D8000AA46D /* Info.plist */,
+				FDE347DF1EB983D8000AA46D /* Supporting Files */,
+			);
+			path = Unity_MoPub;
+			sourceTree = "<group>";
+		};
+		FDE347DF1EB983D8000AA46D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE347E01EB983D8000AA46D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE347DB1EB983D8000AA46D /* Unity_MoPub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE347F31EB983D8000AA46D /* Build configuration list for PBXNativeTarget "Unity_MoPub" */;
+			buildPhases = (
+				9ED611641B36BFF3E9F7E213 /* [CP] Check Pods Manifest.lock */,
+				FDE347D81EB983D8000AA46D /* Sources */,
+				FDE347D91EB983D8000AA46D /* Frameworks */,
+				FDE347DA1EB983D8000AA46D /* Resources */,
+				EEB95EF4CCC1253F8EDC29CA /* [CP] Embed Pods Frameworks */,
+				808E4FEE8F48887426FE0783 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unity_MoPub;
+			productName = Unity_MoPub;
+			productReference = FDE347DC1EB983D8000AA46D /* Unity_MoPub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE347D41EB983D8000AA46D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chi Boon";
+				TargetAttributes = {
+					FDE347DB1EB983D8000AA46D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDE347D71EB983D8000AA46D /* Build configuration list for PBXProject "Unity_MoPub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE347D31EB983D8000AA46D;
+			productRefGroup = FDE347DD1EB983D8000AA46D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE347DB1EB983D8000AA46D /* Unity_MoPub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE347DA1EB983D8000AA46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE347EF1EB983D8000AA46D /* LaunchScreen.storyboard in Resources */,
+				FDE347EC1EB983D8000AA46D /* Assets.xcassets in Resources */,
+				FDE347EA1EB983D8000AA46D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		808E4FEE8F48887426FE0783 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unity_MoPub/Pods-Unity_MoPub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED611641B36BFF3E9F7E213 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB95EF4CCC1253F8EDC29CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unity_MoPub/Pods-Unity_MoPub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE347D81EB983D8000AA46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE347E71EB983D8000AA46D /* ViewController.m in Sources */,
+				FDE347E41EB983D8000AA46D /* AppDelegate.m in Sources */,
+				FD8CE3401ED2BBE400F82FB2 /* UnityAdsInterstitialCustomEvent.m in Sources */,
+				FD8CE33A1ED2B98300F82FB2 /* MPInstanceProvider+Unity.m in Sources */,
+				FD8CE33D1ED2B98300F82FB2 /* UnityAdsRewardedVideoCustomEvent.m in Sources */,
+				FD8CE33C1ED2B98300F82FB2 /* UnityAdsInstanceMediationSettings.m in Sources */,
+				FD8CE33B1ED2B98300F82FB2 /* MPUnityRouter.m in Sources */,
+				FDE347E11EB983D8000AA46D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDE347E81EB983D8000AA46D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE347E91EB983D8000AA46D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE347ED1EB983D8000AA46D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE347EE1EB983D8000AA46D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE347F11EB983D8000AA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDE347F21EB983D8000AA46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE347F41EB983D8000AA46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C85C654D2EE50F3D4C3F08E /* Pods-Unity_MoPub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Unity_MoPub",
+					"$(PROJECT_DIR)/Unity_MoPub/SDK",
+				);
+				INFOPLIST_FILE = Unity_MoPub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiboon.xyz.Unity-MoPub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDE347F51EB983D8000AA46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380F5829AB893B7CDE3534D6 /* Pods-Unity_MoPub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Unity_MoPub",
+					"$(PROJECT_DIR)/Unity_MoPub/SDK",
+				);
+				INFOPLIST_FILE = Unity_MoPub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chiboon.xyz.Unity-MoPub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE347D71EB983D8000AA46D /* Build configuration list for PBXProject "Unity_MoPub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE347F11EB983D8000AA46D /* Debug */,
+				FDE347F21EB983D8000AA46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE347F31EB983D8000AA46D /* Build configuration list for PBXNativeTarget "Unity_MoPub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE347F41EB983D8000AA46D /* Debug */,
+				FDE347F51EB983D8000AA46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE347D41EB983D8000AA46D /* Project object */;
+}

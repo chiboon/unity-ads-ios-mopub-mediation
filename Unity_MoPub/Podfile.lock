@@ -1,0 +1,17 @@
+PODS:
+  - mopub-ios-sdk (4.14.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.14.0)
+  - mopub-ios-sdk/MoPubSDK (4.14.0)
+  - UnityAds (2.1.0)
+
+DEPENDENCIES:
+  - mopub-ios-sdk
+  - UnityAds
+
+SPEC CHECKSUMS:
+  mopub-ios-sdk: 7f08192469c06842a9354d972db32acd18127ae0
+  UnityAds: 99645a5b7011c96d1e9204f8540ce66ea1b7dfb4
+
+PODFILE CHECKSUM: 990734380d424837fc7667f039a4f86fae1180ab
+
+COCOAPODS: 1.2.1

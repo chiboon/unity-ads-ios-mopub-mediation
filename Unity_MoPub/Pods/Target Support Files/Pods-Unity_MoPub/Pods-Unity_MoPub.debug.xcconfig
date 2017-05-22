@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UnityAds"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UnityAds" "${PODS_ROOT}/Headers/Public/mopub-ios-sdk"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/mopub-ios-sdk"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/UnityAds" -isystem "${PODS_ROOT}/Headers/Public/mopub-ios-sdk"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"mopub-ios-sdk" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "Foundation" -framework "MediaPlayer" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UIKit" -framework "UnityAds" -weak_framework "AdSupport" -weak_framework "StoreKit" -weak_framework "WebKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
